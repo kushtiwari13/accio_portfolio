@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Page</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    *{
+    background-color: black;
+    margin: 0px;
+    color: white;
+}
+/* div{
+    background-color: #FCAF02;
+} */
+nav{
+    position: absolute;
+    background-color: #FCAF02;
+    display: flex;
+    width: 100%;
+    height:80px;
+    align-items: center;
+}
+.main{
+    background-color: #FCAF02;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+    padding-left: 30px;
+    
+}
+span{
+    text-decoration: underline;
+    background-color: #FCAF02;
+    color: black;
+    text-underline-offset:0.25em;
+}
+
+.container{
+    background-color: #FCAF02;
+    display: flex;
+    width: 100%;
+    justify-content: end;   
+}   
+.container a{
+    background-color: #FCAF02;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 25px;    
+    text-decoration: none;
+    color: black;
+}
+.child{
+    padding-right: 30px;
+}
+.description{
+    display: flex;
+    align-items: center;  
+    justify-content: center;     
+    font-family: 'Montserrat';
+   
+}
+.left{
+position: absolute;
+width: 550px;
+height: 78px;
+text-align: left;
+left:50px;
+top:170px;
+}
+.left h1{
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+}
+.left p{  
+
+padding-top:30px ;
+font-style: normal;
+font-weight: 400;
+    
+}
+.right img{
+    position: absolute;  
+    width:500px;
+    left: 650px;
+    top:150px;
+    padding-top: 50px;
+    transform: scaleX(-1)
+
+}
+button{
+position: absolute;
+width: 219px;
+height: 50px;
+padding: 3px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+color: black;
+background-color:#FCAF02;
+border: 2px solid #FCAF02;
+border-radius: 100px;
+}
+
+#login{
+position: absolute;
+top:250px;
+}
+
+.contact h1{
+    color: #FCAF02;
+    position: absolute;
+    width: 369px;
+    height: 78px;
+    left: 50px;
+    top: 550px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+}
+input{
+box-sizing: border-box;
+position: absolute;
+height: 50px;
+left: 50px;
+width: 90%;
+border: 2px solid #FCAF02;
+border-radius: 100px;
+}
+.name{
+position: absolute; 
+width: 100%;
+height: 50px;
+top: 650px;
+}
+.email{
+position: absolute; 
+width: 100%;
+height: 50px;
+top: 720px;
+} 
+.mobile{
+position: absolute;
+width: 47%;
+height: 50px;
+top: 790px;
+}
+.city{
+position: absolute;
+width: 47%;
+height: 50px;
+left:570px;
+top: 790px;
+}
+::placeholder{
+    position: absolute;        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FCAF02;
+    padding: 10px;    
+}
+#submit{
+position: absolute;
+line-height: 39px;
+top:880px;
+left:480px;
+}
+table{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90%;
+    left: 50px;
+    top: 1000px;
+    border-collapse: collapse;
+    border: 2px solid #FCAF02;
+}
+th{
+    
+     border: 2px solid #FCAF02; 
+}
+td{
+   
+    border: 2px solid #FCAF02 ;
+    border :none ;
+} 
+.head1{
+    
+    width: 50px;
+    text-align: center;
+}
+.head2{
+    
+    width:37%;
+    text-align: left;
+    padding-left: 30px;
+}
+.head3{
+    text-align: left;
+    padding: 30px;
+    margin-right: 50px;
+}
+.foot{
+    color: black;
+}
+#foot1{
+    color: black;
+    background-color: #FCAF02;
+    border-radius: 2px;
+    border-right-color: black;
+    border-bottom-color: black;
+}
+#foot2{
+    color: black;
+    background-color: #FCAF02;
+    border-color: black;
+}
+#foot3{
+    color: black;
+    background-color: #FCAF02;
+    border-bottom-color: black;
+    /* border-right-color: black; */
+}
+
+</style>
+</head>
+<body>
+    <nav>
+        <div class="main">
+            Start<span>up</span>
+        </div>
+        <div class="container">            
+            <div>
+                <a href="#" class="child">Home</a>
+            </div>
+            <div>
+                <a href="#" class="child">About Us</a>
+            </div>
+            <div>
+                <a href="#" class="child">Contact Us</a>
+            </div>
+            <div>
+                <a href="#" class="child">Login</a>
+            </div>
+        </div>
+    </nav>
+    <section class="description">
+        <div class="left">
+            <h1>Startup Landing Page</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <button type="submit" value="login" id="login">Login</button>
+        </div>
+        <div class="right">
+            <img src="https://wallpapers.com/images/high/jeff-bezos-smiling-bdb8zimqljhfcpu3.webp" alt="img">
+        </div>
+    </section>
+    <section class="contact">
+        <div>
+            <h1>Contact Us</h1>            
+        </div>
+        <form action="">
+            <div class="name">
+                <label for="name"></label>
+                <input type="text" placeholder="Name" id="name"required>
+            </div>
+            <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="Email" id="email" required>
+            </div>
+            <div class="mobile">
+                <label for="mobile"></label>
+                <input type="tel" placeholder="Mobile Number" id="mobile" required>
+            </div>
+            <div class="city">
+                <label for="city"></label>
+                <input type="text" placeholder="City" id="city" required>
+            </div>
+            <button type="submit" value="submit" id="submit">Submit Form</button>
+        </form>
+    </section>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th class="head1">SNO.</th>
+                    <th class="head2">Startup Name</th>
+                    <th class="head3">Startup Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="head1">1</td>
+                    <td class="head2">WowIndia</td>
+                    <td class="head3">A startup with WOW Ideas</td>
+                </tr>
+                <tr>
+                    <td class="head1">2</td>
+                    <td class="head2">Lorem ipsum</td>
+                    <td class="head3">Ipsum Text</td>
+                </tr>
+                <tr>
+                    <td class="head1">3</td>
+                    <td class="head2">Lorem ipsum</td>
+                    <td class="head3">Ipsum Text</td>
+                </tr>
+                <tr>
+                    <td class="head1">4</td>
+                    <td class="head2">Lorem ipsum</td>
+                    <td class="head3">Ipsum Text</td>
+                </tr>
+                <tr>
+                    <td class="head1">5</td>
+                    <td class="head2">Lorem ipsum</td>
+                    <td class="head3">Ipsum Text</td>
+                </tr>
+                <tr class="foot">
+                    <td class="head1" id="foot1">00.</td>
+                    <td class="head2" id="foot2">Final Footer</td>
+                    <td class="head3" id="foot3">Lorem Ipsum Text</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
